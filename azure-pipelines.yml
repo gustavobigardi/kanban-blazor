@@ -12,5 +12,5 @@ variables:
 steps:
 - task: DotNetCoreCLI@2
   inputs:
-    #command: 'build'
-    #projects: 'Kanban/Kaban.sln'
+    command: 'build'
+    projects: 'Kanban/Kaban.sln'
