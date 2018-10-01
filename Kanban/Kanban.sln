@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 15.0.26124.0
@@ -7,6 +7,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kanban.Client", "Kanban.Client\Kanban.Client.csproj", "{CB3CC6CB-57FA-4442-BB80-A8426B39FC9C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kanban.Shared", "Kanban.Shared\Kanban.Shared.csproj", "{373E5570-B983-42E0-837A-BED0AE0E6C4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanban.Infra.Database", "Kanban.Infra.Database\Kanban.Infra.Database.csproj", "{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +56,18 @@ Global
 		{373E5570-B983-42E0-837A-BED0AE0E6C4A}.Release|x64.Build.0 = Release|Any CPU
 		{373E5570-B983-42E0-837A-BED0AE0E6C4A}.Release|x86.ActiveCfg = Release|Any CPU
 		{373E5570-B983-42E0-837A-BED0AE0E6C4A}.Release|x86.Build.0 = Release|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Debug|x64.Build.0 = Debug|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Debug|x86.Build.0 = Debug|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Release|x64.ActiveCfg = Release|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Release|x64.Build.0 = Release|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Release|x86.ActiveCfg = Release|Any CPU
+		{E04F1D4F-330B-4C18-BE06-B9BDBAB7A756}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
