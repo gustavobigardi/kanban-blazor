@@ -7,7 +7,7 @@ using Newtonsoft.Json.Serialization;
 using System.Linq;
 using System.Net.Mime;
 
-namespace Kaban.Server
+namespace Kanban.Server
 {
     public class Startup
     {

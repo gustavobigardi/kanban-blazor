@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Kaban.Shared
+namespace Kanban.Shared
 {
     public class WeatherForecast
     {

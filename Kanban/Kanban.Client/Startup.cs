@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Blazor.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Kaban.Client
+namespace Kanban.Client
 {
     public class Startup
     {
