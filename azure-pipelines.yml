@@ -13,4 +13,4 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'build'
-    projects: 'Kanban/Kaban.sln'
+    projects: 'Kanban/Kanban.sln'
