@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 
-namespace Kaban.Server
+namespace Kanban.Server
 {
     public class Program
     {

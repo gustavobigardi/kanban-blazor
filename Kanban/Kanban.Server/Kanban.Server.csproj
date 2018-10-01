@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Kaban.Client\Kaban.Client.csproj" />
-    <ProjectReference Include="..\Kaban.Shared\Kaban.Shared.csproj" />
+    <ProjectReference Include="..\Kanban.Client\Kanban.Client.csproj" />
+    <ProjectReference Include="..\Kanban.Shared\Kanban.Shared.csproj" />
   </ItemGroup>
 
 </Project>

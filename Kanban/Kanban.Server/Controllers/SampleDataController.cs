@@ -1,11 +1,11 @@
-﻿using Kaban.Shared;
+﻿using Kanban.Shared;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Kaban.Server.Controllers
+namespace Kanban.Server.Controllers
 {
     [Route("api/[controller]")]
     public class SampleDataController : Controller

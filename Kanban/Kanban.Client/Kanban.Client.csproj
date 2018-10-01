@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Kaban.Shared\Kaban.Shared.csproj" />
+    <ProjectReference Include="..\Kanban.Shared\Kanban.Shared.csproj" />
   </ItemGroup>
 
 </Project>

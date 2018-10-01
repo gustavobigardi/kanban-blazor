@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Blazor.Hosting;
 
-namespace Kaban.Client
+namespace Kanban.Client
 {
     public class Program
     {
