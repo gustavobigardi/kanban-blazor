@@ -8,11 +8,13 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Blazor.Server" Version="0.6.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Kanban.Client\Kanban.Client.csproj" />
     <ProjectReference Include="..\Kanban.Shared\Kanban.Shared.csproj" />
+    <ProjectReference Include="..\Kanban.Infra.Database\Kanban.Infra.Database.csproj" />
   </ItemGroup>
 
 </Project>

@@ -3,7 +3,7 @@ using Kanban.Shared.Domain;
 
 namespace Kanban.Infra.Database.Repositories
 {
-    public class TeamRepository : GenericRepository<Team>
+    public class TeamRepository : GenericRepository<Team>, ITeamRepository
     {
         public TeamRepository(KanbanContext context) : base(context)
         {
