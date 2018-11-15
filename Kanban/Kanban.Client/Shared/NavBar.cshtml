@@ -1,0 +1,51 @@
+﻿@*<div class="top-row pl-4 navbar navbar-dark">
+        <a class="navbar-brand" href="">Kanban</a>
+        <button class="navbar-toggler" onclick=@ToggleNavMenu>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+    <div class=@(collapseNavMenu ? "collapse" : null) onclick=@ToggleNavMenu>
+        <ul class="nav flex-column">
+            <li class="nav-item px-3">
+                <NavLink class="nav-link" href="" Match=NavLinkMatch.All>
+                    <span class="oi oi-home" aria-hidden="true"></span> Home
+                </NavLink>
+            </li>
+            <li class="nav-item px-3">
+                <NavLink class="nav-link" href="counter">
+                    <span class="oi oi-plus" aria-hidden="true"></span> Counter
+                </NavLink>
+            </li>
+            <li class="nav-item px-3">
+                <NavLink class="nav-link" href="fetchdata">
+                    <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+                </NavLink>
+            </li>
+        </ul>
+    </div> *@
+
+<nav class="navbar has-shadow" role="navigation" aria-label="dropdown-navigation">
+    <a class="navbar-item">
+        <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+    </a>
+    <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link" href="#">Cadastros</a>
+        <div class="navbar-dropdown">
+            <a class="navbar-item" href="#">Usuários</a>
+            <a class="navbar-item" href="#">Times</a>
+            <hr class="navbar-divider" />
+            <a class="navbar-item" href="#">Projetos</a>
+            <a class="navbar-item" href="#">Iterações</a>
+        </div>
+    </div>
+</nav>
+
+@functions {
+    bool collapseNavMenu = true;
+
+    void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
